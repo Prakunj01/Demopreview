@@ -32,7 +32,7 @@ const Content = () => {
     <section
       className="py-16 px-4 min-h-screen flex items-center justify-center"
       style={{
-        background: "linear-gradient(135deg, #2C007C 0%, #3B0A75 100%)",
+        background: "linear-gradient(135deg, #432e9b 0%, #432e9b 100%)",
       }}
     >
       <div className="max-w-6xl mx-auto w-full">

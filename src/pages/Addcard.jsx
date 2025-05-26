@@ -4,14 +4,14 @@ function Addcard() {
   return (
     <div
       className="min-h-screen flex items-center justify-center"
-      style={{ background: 'linear-gradient(135deg, #2C007C 0%, #3B0A75 100%)' }}
+      style={{ background: 'linear-gradient(135deg, #432e9b 0%,rgb(73, 44, 190) 100%)' }}
     >
-      <div className="w-full max-w-7xl bg-[#2C007C] border border-[#FFC107] rounded-lg shadow-2xl p-4">
+      <div className="w-full max-w-7xl bg-[#432e9b] border border-[#FFC107] rounded-lg shadow-2xl p-4">
         <div className="sm:hidden mb-4">
           <label htmlFor="tabs" className="sr-only">Select tab</label>
           <select
             id="tabs"
-            className="bg-[#3B0A75] border-0 border-b border-[#FFC107] text-[#FFC107] text-sm rounded-t-lg focus:ring-[#FFC107] focus:border-[#FFC107] block w-full p-2.5"
+            className="bg-[#432e9b] border-0 border-b border-[#FFC107] text-[#FFC107] text-sm rounded-t-lg focus:ring-[#FFC107] focus:border-[#FFC107] block w-full p-2.5"
           >
             <option>Statistics</option>
             <option>Classes</option>

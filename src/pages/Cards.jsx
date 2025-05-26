@@ -3,8 +3,8 @@ import bookImg from '../assets/book.jpg'
 
 function Cards() {
   return (
-    <div className="min-h-screen flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #2C007C 0%, #3B0A75 100%)' }}>
-      <div className="flex flex-col md:flex-row max-w-4xl w-full bg-[#2C007C] border border-[#FFC107] rounded-lg shadow-2xl overflow-hidden">
+    <div className="min-h-screen flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #432e9b 0%,rgb(59, 35, 154) 100%)' }}>
+      <div className="flex flex-col md:flex-row max-w-4xl w-full bg-[#432e9b] border border-[#FFC107] rounded-lg shadow-2xl overflow-hidden">
         <img
           className="object-cover w-full md:w-1/2 h-96 md:h-auto"
           src={bookImg}
@@ -22,9 +22,9 @@ function Cards() {
             href="#"
             className="inline-block px-6 py-3 text-lg font-bold rounded-lg transition"
             style={{
-              background: '#FFC107',
-              color: '#2C007C',
-              boxShadow: '0 4px 20px 0 rgba(44,0,124,0.15)',
+              background: '#432e9b',
+              color: '#432e9b',
+              boxShadow: '0 4px 20px 0 rgba(95, 51, 176, 0.15)',
             }}
           >
             Learn More

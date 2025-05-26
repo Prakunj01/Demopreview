@@ -7,7 +7,7 @@ function Hero() {
       <section
         className="min-h-[70vh] flex items-center justify-center"
         style={{
-          background: 'linear-gradient(135deg, #2C007C 0%, #3B0A75 100%)',
+          background: 'linear-gradient(135deg, #432e9b 0%, #432e9b 100%)',
         }}
       >
         <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-12">
